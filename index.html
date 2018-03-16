@@ -1,0 +1,325 @@
+<html>
+    <head>
+<link rel="stylesheet" type="text/css" href="css/animations.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Timer -->
+<script src="./js/sbg.js"></script>
+<link rel="stylesheet" href="./css/sbg.css"/>
+<!-- Animations -->
+<link rel="stylesheet" type="text/css" href="css/animations.css">
+<!-- Icons -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<!-- mainStyle -->
+<link rel="stylesheet" href="./css/style.css"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    </head>
+
+<body id="body">
+	<div class="container-fluid navBar">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12"><img class="img-responsive logo" src="./images/logo-footer-beta.svg"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row content">
+			<div class="col-sm-12">
+				<div class="carousel slide" data-interval="4000" data-pause="none" data-ride="carousel" id="myCarousel">
+					<!-- Indicators -->
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="carousel-caption">
+								<div class="bluePuzzle">
+									<img class="puzzle img-responsive tossing" height="auto" src="./images/puzzle-01.png" width="250px">
+									<h1 class="header">Heading <span class="blueHighlight">One!</span></h1>
+									<h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra sem quis suscipit vulputate.</h4>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="carousel-caption">
+								<div class="greyPuzzle">
+									<img class="puzzle img-responsive tossing" height="auto" src="./images/puzzle-02.png" width="250px">
+									<h1 class="header">Heading <span class="greyHighlight">Two!</span></h1>
+									<h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac.</h4>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="carousel-caption">
+								<div class="orangePuzzle">
+									<img class="puzzle img-responsive tossing" height="auto" src="./images/puzzle-03.png" width="250px">
+									<h1 class="header">Heading <span class="orangeHighlight">Three!</span></h1>
+									<h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum volutpat arcu, ac egestas.</h4>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="carousel-caption">
+								<div class="tealPuzzle">
+									<img class="puzzle img-responsive tossing" height="auto" src="./images/puzzle-04.png" width="250px">
+									<h1 class="header">Heading <span class="tealHighlight">Four!</span></h1>
+									<h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean placerat lacus a.</h4>
+								</div>
+							</div>
+						</div>
+						<div class="item" id="4">
+							<div class="carousel-caption">
+								<div class="animContainer">
+									<div class="floating animWrapper">
+										<div><img class="bluePuzzleAnim puzzles pullUp" height="auto" src="./images/smallPieces-06.png" width="100px"> <img class="greyPuzzleAnim puzzles pullUp" height="auto" src="./images/smallPieces-05.png" width="100px"></div>
+										<div><img class="orangePuzzleAnim puzzles pullUp" height="auto" src="./images/smallPieces-07.png" width="100px"> <img class="tealPuzzleAnim puzzles pullUp" height="auto" src="./images/smallPieces-08.png" width="100px"></div>
+									</div>
+								</div>
+								<div class="animCaption">
+									<h1 class="header">Something huge!</h1>
+									<h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra sem quis suscipit vulputate.</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div align="center" class="col-sm-12 center-block request">
+				<div class="timeBlock">
+					<span class="offer">This offer ends in:</span><span class="timer" id="demo"></span>
+				</div>
+				<div class="row">
+					<button class="btn btn-primary text-uppercase hitRequest">Request a Demo</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright-share">
+		<ul class="share-buttons text-center">
+			<li>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=&quote=" target="_blank" title="Share on Facebook"><img alt="Share on Facebook" src="./images/color/Facebook.png"></a>
+			</li>
+			<li>
+				<a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Tweet"><img alt="Tweet" src="./images/color/Twitter.png"></a>
+			</li>
+			<li>
+				<a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="./images/color/LinkedIn.png"></a>
+			</li>
+		</ul>
+		<div class="copyright container text-center" style="color:black">
+			&copy; Copyright 2018 - Intrideo by Socy Inc. All Rights Reserved.
+		</div>
+	</div>
+	<h1 class="formHeader text-center" id="removeFormHeader">Please fill out the form below to receive your demo!</h1>
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+portalId: "2708974",
+formId: "f23ec9d0-c6bf-4e47-ae47-ef6d395fec10",
+css: "",
+locale: 'en',
+      translations: {
+        en: {
+		  required: "This field is required."
+		}
+	},
+submitButtonClass: "btn btn-primary text-uppercase center-block hitSubmit",
+onFormSubmit: function($form) {
+	var el = document.getElementById("removeFormHeader");
+	el.remove();
+}
+});
+
+</script>
+
+<style> 
+.hs-input {
+	margin-bottom: 10px;
+}
+.hs-error-msgs.inputs-list li>label 
+	{
+	font-size: .8em;
+	list-style: none;
+	display: none;
+	}
+	ul{
+		-webkit-padding-start: 0px;
+	}
+	li {
+height: 20px;
+list-style:none;
+display:none;
+	}
+
+.hs-input {
+    display: block;
+    width: 100% !important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.hs-form-required {
+	color: red;
+}
+
+.hs-form-field > label {
+	color: #777;
+	font-weight: 100;
+}
+.grecaptcha-badge {
+margin: 0 auto;
+margin-top: 15px !important;
+}
+
+input[type=submit] {
+	margin-top: 25px;
+}
+
+.inputs-list {
+	margin-bottom: 0px !important;
+}
+
+
+
+.submitted-message {
+	padding-left: 5;
+    padding-right: 5;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	margin-top: 60%;
+    text-align: center;
+}
+.hbspt-form {
+	margin: 0 auto;
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+/* Common Mobile Widths */
+@media (max-width: 415px), (max-device-width: 480px) and (min-device-width: 320px){
+  .form-columns-2 .hs-form-field{
+        width: 50% !important;
+        float: left !important;
+	}
+	
+	.hitSubmit {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+   transform: translateX(-50%);
+	}
+	.request {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+      
+   }
+
+    .copyright-share {
+        display: none;
+   }
+.formHeader{
+    font-size: 1.5em;
+  
+}
+
+
+.hbspot-form {
+    margin-top: 25px;
+}
+
+}
+
+/* iPhone 8 */
+@media (max-width: 400px), (device-width: 375px) and (device-height:812px){
+  .form-columns-2 .hs-form-field{
+        width: 50% !important;
+        float: left !important;
+	}
+	.hitSubmit {
+	bottom:30px;
+}
+}
+
+
+/* iPhone 6 Standard */
+@media (max-width: 400px), (device-width: 375px) and (device-height:75px){
+  .form-columns-2 .hs-form-field{
+        width: 50% !important;
+        float: left !important;
+	}
+	.formHeader{
+		margin-top: 25px;
+    margin-bottom: 25px;
+  
+}
+.timeBlock {
+	margin-bottom: -10px;
+}
+}
+
+
+</style>
+</body>
+</html>
+
+<script>
+       // Set the date we're counting down to
+   var countDownDate = new Date("March 20, 2018 15:37:25").getTime();
+   // Update the count down every 1 second
+   var x = setInterval(function() {
+   	// Get todays date and time
+   	var now = new Date().getTime();
+   	// Find the distance between now an the count down date
+   	var distance = countDownDate - now;
+   	// Time calculations for days, hours, minutes and seconds
+   	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+   	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+   	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+   	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+   	// Output the result in an element with id="demo"
+   	document.getElementById("demo").innerHTML = days + " Days, " + hours + " Hours";
+   	// If the count down is over, write some text 
+   	if (distance < 0) {
+   		clearInterval(x);
+   		document.getElementById("demo").innerHTML = "EXPIRED";
+   	}
+   });
+   sbg();
+   $(document).ready(function() {
+               $("body").fadeIn(1000);
+              $(".hbspt-form").hide();
+              $(".formHeader").hide();
+			 
+    });
+    $(".hitRequest").click(function() {
+        $(".content").fadeOut(250);
+		$(".hbspt-form").delay(250).fadeIn(250);
+        $(".formHeader").delay(250).fadeIn(250);
+    });
+
+
+
+</script>
